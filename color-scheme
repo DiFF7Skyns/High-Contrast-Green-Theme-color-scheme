@@ -1,0 +1,464 @@
+/////////////////////////////////////////////////////////////////
+//////////////      High Contrast Green Theme      //////////////
+//////////////           by @DiFF7Skyns            //////////////
+/////////////////////////////////////////////////////////////////
+
+
+
+// CORES //
+// #000000: preto
+// #FFFFFF: branco
+// #15B20B: verde vivo
+// #074C00: verde escuro
+// #17FF00: verde claro
+// #737373: cinza
+// #1A1A1A: cinza dark
+// #FFFF00: amarelo (para itens desconhecidos)
+
+
+
+// GERAL //
+windowBg: #000000;									  // Plano de fundo geral (Tela de Bloqueio, Itens do Menu Hamburguer, Menu de Contexto, Info do contato, Barra de Busca ativa, Caixa de Preenchimento)
+windowFg: #FFFFFF;									  // Texto Geral (Menu de Contexto, Menu de Configurações, Info do Contato, Cursor, etc)
+windowBgOver: #1A1A1A;								// Mouse sobre Plano de Fundo Geral (Menu de Contexto, Menu Hamburguer, etc)
+windowFgOver: #15B20B;								// Mouse sobre Texto Geral (Menu de contexto)
+windowBgRipple: #15B20B;							// Clique do mouse (Chat Inativo, Menu Hamburguer, Menu de Contexto, etc)
+windowSubTextFg: #737373;							// Texto específico (Versão, Sobre, Subtítulo de informação, número de membros, status do membro no Info do Grupo)
+windowSubTextFgOver: #15B20B;					// Comando do teclado no Menu de Contexto (mouse over)
+windowBoldFg: #FFFFFF;								// Texto do Menu Hamburguer, Título de Informação e nome do membro no Info do Grupo
+windowBoldFgOver: #15B20B;						// Texto do menu Hamburguer (mouse over)
+windowBgActive: #15B20B;							// Plano de fundo do Botão-caixa (selecionado), Categoria de Emoji (ativa), Linha da Categoria de Sticker (ativa)
+windowFgActive: #FFFFFF;							// Ícone de Validação do Botão-caixa (selecionado)
+windowActiveTextFg: #15B20B;					// Online Status, Typing, Links (Incluindo de Mídia Compartilhada e Ações), "GIFs & Stickers", "Emoji", Nome/Sobrenome em Editar Contato, "Soltar Arquivos", "Legenda", "Mensagem Fixada", nome do membro em Reply
+windowShadowFg: #FFFFFF;							// Sombra da janela (externa e internas)
+profileStatusFgOver: #FFFFFF;					// Status do perfil na ala de membros (mouse over)
+
+
+// Menu Hamburguer //
+mainMenuBg: #000000;								  // Plano de Fundo do Menu Hamburguer
+mainMenuCoverBg: #15B20B;							// Capa do menu lateral esquerdo
+mainMenuCoverFg: #FFFFFF;							// Texto da Capa
+
+
+// BARRA DE TÍTULO //
+titleBg: #000000;									    // Barra de Título
+titleShadow: #000000;								  // Divisória da Barra de Título
+titleButtonFg: #FFFFFF;								// Ícones dos Botões de Título
+titleButtonFgOver: #15B20B;						// Ícones dos Botões de Título (mouse over)
+titleButtonBgOver: #000000;						// Plano de Fundo dos Botões de Título (mouse over)
+titleButtonCloseFgOver: #FFFFFF;			// Ícone do Botão Fechar (mouse over)
+titleButtonCloseBgOver: #FF0000;			// Plano de Fundo do Botão Fechar (mouse over)
+titleFgActive: #FFFFFF;								// Texto da Barra de Título ativa (MacOS)
+titleFg: #FFFFFF;									    // Texto da Barra de Título inativa (MacOS)
+
+
+// TELA DE INTRODUÇÃO //
+introBg: #000000;
+introTitleFg: #FFFFFF;
+introDescriptionFg: #737373;
+introErrorFg: #737373;
+introCoverTopBg: #0f89d0;
+introCoverBottomBg: #39b0f0;
+introCoverIconsFg: #5ec6ff;
+introCoverPlaneTrace: #5ec6ff69;
+introCoverPlaneInner: #c6d8e8;
+introCoverPlaneOuter: #a1bed4;
+introCoverPlaneTop: #ffffff;
+
+
+// EFEITOS //
+layerBg: #15B20B10;									  // Camada de Fundo Transparente (Ao sobrepor qualquer menu ou caixa de diálogo)
+radialFg: #15B20B;									  // Círculo de Progresso no 'loading' de imagem de perfil.
+radialBg: #FFFFFF00;								  // Círculo de Fundo no 'loading' de imagem de perfil.
+shadowFg: #000000;									  // Bordas internas
+slideFadeOutBg: #15B20B;							// Efeito do slide lateral (Info do contato)
+slideFadeOutShadowFg: #FFFF00;				// UNKNOWN
+imageBg: #1A1A1A;									    // Plano de fundo de uma imagem enviada (SOB VERIFICAÇÃO)
+imageBgTransparent: #1A1A1A;					// Plano de fundo de uma miniatura de link (SOB VERIFICAÇÃO)
+
+
+// BOTÕES GERAIS //
+activeButtonBg: #15B20B;							// Botão padrão ativo (Menu de Configurações, Info do Grupo, Info do Contato, Tela de bloqueio, Configurações de Stickers Populares/Ativados, Selecionar Imagem em Novo Canal/Novo Grupo, Aplicar Tema)
+activeButtonBgOver: #074C00;					// Botão padrão ativo (mouse over)
+activeButtonBgRipple: #15B20B;				// Botão padrão ativo [e sobre chat] (clique)
+activeButtonFg: #FFFFFF;							// Texto dos Botões padrão ativos
+activeButtonFgOver: #FFFFFF;					// Texto dos botões padrão (mouse over)
+activeButtonSecondaryFg: #FFFFFF;			// Numeração das mensagens marcadas
+activeButtonSecondaryFgOver: #FFFFFF;	// Numeração das mensagens marcadas (mouse over)
+activeLineFg: #15B20B;								// Linhas de preenchimento ativas
+inputBorderFg: #737373;								// Linhas de preenchimento inativas
+activeLineFgError: #FF0000;						// Linha de preenchimento ativa (erro)
+lightButtonBg: #000000;								// Botão padrão inativo (Menu de Configurações, Info do Grupo, Info do Contato, Tela de bloqueio, Configurações de Stickers Populares/Ativados, Selecionar Imagem em Novo Canal/Novo Grupo, Aplicar Tema)
+lightButtonBgOver: #074C00;						// Botão padrão inativo [e clique sobre abas das Configurações de Stickers] (mouse over)
+lightButtonBgRipple: #15B20B;					// Botão padrão inativo (clique)
+lightButtonFg: #FFFFFF;								// Texto dos Botões padrão inativos [e dos Botões ativos das abas das Configurações de Stickers]
+lightButtonFgOver: #FFFFFF;						// Texto dos Botões padrão inativos (mouse over)
+attentionButtonFg: #FF0000;						// Texto do Botão "Bloquear usuário" e Botão "Sair" na comfirmação de saída do Telegram e Botão "Apagar" na confirmação de apagar Canal
+attentionButtonFgOver: #FFFF00;				// UNKNOWN
+attentionButtonBgOver: #074C00;				// Botão "Bloquear usuário" (mouse over)
+attentionButtonBgRipple: #15B20B;			// Botão "Bloquear usuário" (clique)
+outlineButtonBg: #000000;							// Botões de Mídia Compartilhada e Ações
+outlineButtonBgOver: #074C00;					// Botões de Mídia Compartilhada e Ações [inclusive Bloquear usuário e membros em Info do Grupo] (mouse over)
+outlineButtonOutlineFg: #15B20B;			// Linha lateral dos Botões de Mídia Compartilhada e Ações [inclusive Bloquear usuário e membros em Info do Grupo]
+outlineButtonBgRipple: #15B20B;				// Botões de Mídia Compartilhada e Ações [inclusive Bloquear usuário e membros em Info do Grupo] (clique)
+
+
+// MENUS DE CONTEXTO E ÍCONES PADRÃO//
+menuBg: #000000;									    // Efeito de abertura
+menuBgOver: #000000;								  // Botões de Opções de bot
+menuBgRipple: #FFFF00;								// UNKNOWN
+menuIconFg: #15B20B;								  // Ícones [pesquisar/três pontinhos do hitórico, lixeira/arrastar em Configurações de Stickers, Menu Hamburguer, pesquisar em Janela de Contatos, avatar/telefone em Editar Contato]
+menuIconFgOver: #FFFFFF;							// Ícones [pesquisar/três pontinhos do hitórico, lixeira em Configurações de Stickers, Menu Hamburguer] (mouse over)
+menuSubmenuArrowFg: #FFFF00;					// UNKNOWN
+menuFgDisabled: #737373;							// Opções desabilitadas do menu de Contexto
+menuSeparatorFg: #15B20B;							// Separador do Menu de Contexto
+
+
+// MENU DE CONTATOS //
+contactsBg: #000000;								  // Plano de Fundo da Lista de Contatos
+contactsBgOver: #074C00;							// Plano de Fundo da Lista de Contatos (mouse over)
+contactsNameFg: #FFFFFF;							// Nome dos contatos
+contactsStatusFg: #737373;						// Status dos contatos
+contactsStatusFgOver: #FFFFFF;				// Status dos contatos (mouse over)
+contactsStatusFgOnline: #15B20B;			// Status "Online" na lista de contatos
+
+
+// BARRAS DE SCROLL //
+scrollBarBg: #074C00;								  // Barra de Scroll [Chat, Menu de Configurações, Info do Grupo, Info do Contato]
+scrollBarBgOver: #15B20B;							// Barra de Scroll [Chat, Menu de Configurações, Info do Grupo, Info do Contato] (mouse over)
+scrollBg: #FFFFFF1a;								  // Fundo da Barra de Scroll [Chat, Menu de Configurações, Info do Grupo, Info do Contato]
+scrollBgOver: #FFFFFF1a;							// Fundo da Barra de Scroll [Chat, Menu de Configurações, Info do Grupo, Info do Contato] (mouse over)
+historyScrollBarBg: #15B20B;					// Barra Scroll [Histórico] ERROR
+historyScrollBarBgOver: #17FF00;			// Barra Scroll [Histórico] (mouse over) ERROR
+historyScrollBg: #FFFFFF1A;						// Barra Scroll de fundo [Histórico] ERROR
+historyScrollBgOver: #FFFFFF1A;				// Barra Scroll  de fundo [Histórico] (mouse over) ERROR
+
+
+// NOTIFICAÇÕES //
+windowShadowFgFallback: #000000;			// Borda das notificações
+smallCloseIconFg: #15B20B;						// Ícone de fechar [x] na Notificação
+smallCloseIconFgOver: #FFFFFF;				// Ícone de fechar [x] na Notificação (mouse over)
+trayCounterBg: #FF0000;								// Círculo de Notificação da Bandeja (nova mensagem)
+trayCounterBgMute: #737373;						// Círculo de Notificação da Bandeja (nova mensagem silenciada)
+trayCounterFg: #FFFFFF;								// Número do ícone de notificação
+trayCounterBgMacInvert: #FFFFFF;			// Para Mac
+trayCounterFgMacInvert: #FFFFFF;			// Para Mac
+
+
+// CHATS // 
+dialogsMenuIconFg: #15B20B;						// Ícones do chat [Menu Hamburguer e Cadeado]
+dialogsMenuIconFgOver: #FFFFFF;				// Ícones do chat [Menu hamburguer e Cadeado] (mouse over)
+historyPeerUserpicFg: #FFFFFF;				// Texto do Círculo do contato/grupo/canal (e na listagem de membros de um grupo)
+// Círculo do contato/grupo/canal (e na listagem de membros de um grupo)
+historyPeer1UserpicBg: #15B20B;
+historyPeer2UserpicBg: #15B20B;
+historyPeer3UserpicBg: #15B20B;
+historyPeer4UserpicBg: #15B20B;
+historyPeer5UserpicBg: #15B20B;
+historyPeer6UserpicBg: #15B20B;
+historyPeer7UserpicBg: #15B20B;
+historyPeer8UserpicBg: #15B20B;
+// Inativo
+dialogsBg: #000000;									  // Plano de Fundo
+dialogsBgOver: #000000;								// Plano de Fundo (mouse sobre ele)
+dialogsNameFg: #FFFFFF;								// Nome do Chat (contato ou grupo) [E no histórico]
+dialogsNameFgOver: #15B20B;						// Nome do Chat (mouse over)
+dialogsChatIconFg: #15B20B;						// Ícones Grupo/Canal
+dialogsChatIconFgOver: #15B20B;				// Ícones Grupo/Canal (mouse over)
+dialogsDateFg: #737373;								// Datas e horários
+dialogsDateFgOver: #FFFFFF;						// Datas e horários (mouse over)
+dialogsTextFg: #737373;								// Preview das mensagens
+dialogsTextFgOver: #FFFFFF;						// Preview das mensagens (mouse over)
+dialogsTextFgService: #FFFFFF;				// Texto de Indicação [Documento, Foto, "Você", nova mensagem, etc]
+dialogsTextFgServiceOver: #15B20B;		// Texto de Indicação [Documento, Foto, "Você", nova mensagem, etc] (mouse over)
+dialogsDraftFg: #FFFFFF;							// "Rascunho"
+dialogsDraftFgOver: #15B20B;					// "Rascunho" (mouse over)
+dialogsVerifiedIconBg: #519ABA;				// Ícone Verificado [plano de fundo]
+dialogsVerifiedIconBgOver: #519ABA;		// Ícone Verificado [plano de fundo] (mouse over)
+dialogsVerifiedIconFg: #FFFFFF;				// Ícone Verificado [tique]
+dialogsVerifiedIconFgOver: #FFFFFF;		// Ícone Verificado [tique] (mouse over)
+dialogsSendingIconFg: #15B20B;				// Ícone enviando [reloginho]
+dialogsSendingIconFgOver: #15B20B;		// Ícone enviando [reloginho] (mouse over)
+dialogsSentIconFg: #15B20B;						// Ícone enviado [tique e duplo tique]
+dialogsSentIconFgOver: #15B20B;				// Ícone enviado [tique e duplo tique] (mouse over)
+dialogsUnreadBg: #15B20B;							// Círculo de Notificação
+dialogsUnreadBgOver: #15B20B;					// Círculo de Notificação (mouse over)
+dialogsUnreadFg: #FFFFFF;							// Número do ícone de Notificação
+dialogsUnreadFgOver: #FFFFFF;					// Número do ícone de Notificação (mouse over)
+dialogsUnreadBgMuted: #737373;				// Número do ícone de Notificação [chat silenciado]
+dialogsUnreadBgMutedOver: #737373;		// Número do ícone de Notificação [chat silenciado] (mouse over)
+// Ativo
+dialogsBgActive: #15B20B;							// Plano de Fundo
+dialogsNameFgActive: #FFFFFF;					// Nome do Chat
+dialogsChatIconFgActive: #000000;			// Ícone Grupo/Canal
+dialogsDateFgActive: #000000;					// Data e horário
+dialogsTextFgActive: #000000;					// Preview da mensagen
+dialogsTextFgServiceActive: #FFFFFF;	// Texto de Indicação [Documento, Foto, "Você", nova mensagem, etc]
+dialogsDraftFgActive: #FFFFFF;				// "Rascunho"
+dialogsVerifiedIconBgActive: #519ABA;	// Ícone Verificado [plano de fundo]
+dialogsVerifiedIconFgActive: #FFFFFF; // Ícone Verificado [tique]
+dialogsSendingIconFgActive: #FFFFFF;	// Ícone enviando [reloginho]
+dialogsSentIconFgActive: #FFFFFF;			// Ícone enviado [tique e duplo tique]
+dialogsUnreadBgActive: #000000;				// Círculo de Notificação
+dialogsUnreadBgMutedActive: #737373;	// Número do ícone de Notificação
+dialogsUnreadFgActive: #FFFFFF;				// Número do ícone de Notificação [chat silenciado]
+dialogsForwardBg: #FF0000;						// UNKNOWN
+dialogsForwardFg: #FFFFFF;						// UNKNOWN
+
+
+// ASPECTOS VÍSIVEIS GERAIS //
+topBarBg: #000000;									  // Barra de Título da conversa
+filterInputInactiveBg: #1A1A1A;				// Caixa de Busca Padrão Inativa
+filterInputBorderFg: #15B20B;					// Contorno da Caixa de Busca Padrão ativa
+placeholderFg: #FFFFFF;								// Texto da Caixa de Busca Padrão e Caixa de Digitação (inativos)
+placeholderFgActive: #737373;					// Texto da Caixa de Busca Padrão e Caixa de Digitação (ativos)
+boxBg: #000000;										    // Fundo da Caixa de Diálogo, Menu de Configurações, Configurações de Stickers, Janela de Arrastar Arquivos
+boxTitleFg: #FFFFFF;								  // Título da Caixa de Diálogo
+boxTextFg: #FFFFFF;									  // Texto da Caixa de Diálogo
+boxTextFgGood: #15B20B;								// Texto "Link disponível" na criação de um canal
+boxTextFgError: #FF0000;							// "SENHA ERRADA" (na Tela de Bloqueio)
+boxSearchBg: #000000;								  // Plano de Fundo da Caixa de Busca (Menu de Contatos)
+boxSearchCancelIconFg: #FFFF00;				// UNKNOWN
+boxSearchCancelIconFgOver: #FFFF00;		// UNKNOWN
+boxTitleAdditionalFg: #FFFF00;				// UNKNOWN
+boxTitleCloseFg: #15B20B;							// Ícone de cancelar [X] no Menu de Configurações, Menu de Contatos [após busca]
+boxTitleCloseFgOver: #FFFFFF;					// Ícone de cancelar [X] no Menu de Configurações, Menu de Contatos [após busca] (mouse over)
+checkboxFg: #15B20B;								  // Contorno da Caixa de Seleção desmarcada (e ícones desativos da caixa de ícone) ATENÇÃO
+sliderBgActive: #15B20B;							// Linha da Escala de Interface ativa [Menu de Configurações]
+sliderBgInactive: #737373;						// Linha da Escala de Interface inativa [Menu de Configurações]
+tooltipBg: #000000;									  // Plano de Fundo de Moldura Flutuante [tooltip]
+tooltipFg: #FFFFFF;									  // Texto de Moldura Flutuante [tooltip]
+tooltipBorderFg: #1A1A1A;							// Borda de Moldura Flutuante [tooltip]
+photoCropFadeBg: #1A1A1A;							// Área externa de Corte da Foto (ao definir uma nova)
+photoCropPointFg: #15B20B7f;					// Botões da Área externa de Corte da Foto
+searchedBarBg: #15B20B;								// Barra de Busca por mensagens (do histórico) ou Resultado da Busca do Chat
+searchedBarBorder: #FFFF00;						// UNKNOWN (provavelmente a borda da mesma Barra acima)
+searchedBarFg: #FFFFFF;								// Texto da Barra de Busca por mensagens (do histórico) ou Resultado da Busca do Chat
+historyForwardChooseFg: #000000;			// Mensagem "Escolher Recipiente" quando se encaminha um item
+historyForwardChooseBg: #FFFFFFB3;		// Fundo da Mensagem "Escolher Recipiente" quando se encaminha um item
+profileVerifiedCheckBg: #519ABA;			// Ícone Verificado [plano de fundo] em Info do Contato
+profileVerifiedCheckFg: #FFFFFF;			// Ícone Verificado [tique] em Info do Contato
+profileAdminStartFg: #15B20B;					// Estrela de Administrador na ala de membros
+
+
+// QUADRO DE EMOJIS //
+emojiPanBg: #FFFFFF;								  // Plano de fundo do Quadro de Emojis/Stickers
+emojiPanCategories: #FFFFFF; 					// Plano de fundo das Categorias de Emoji
+emojiPanHeaderFg: #000000;						// Texto das Categorias do Quadro de Emojis
+emojiPanHeaderBg: #FFFFFF; 						// Plano de fundo da Barra de Título do Quadro de Emojis
+stickerPanDeleteBg: #FFFFFF;					// UNKNOWN
+stickerPanDeleteFg: #FFFFFF;					// UNKNOWN
+stickerPreviewBg: #15B20B10;					// Camada de Fundo Transparente (ao visualizar um sticker)
+
+
+// HISTÓRICO DO CHAT //
+// Caixa de Mensagem
+msgInBg: #252525;									    // Caixa de Mensagem recebida
+msgInBgSelected: #737373;							// Caixa de Mensagem recebida (selecionada)
+msgInShadow: #00000000;								// Sombra da Caixa de Mensagem recebida
+msgInShadowSelected: #00000000;				// Sombra da Caixa de Mensagem recebida (selecionada)
+msgOutBg: #000000;									  // Caixa de Mensagem enviada
+msgOutBgSelected: #737373;						// Caixa de Mensagem enviada (selecionada)
+msgOutShadow: #15B20B;								// Sombra da Caixa de Mensagem enviada
+msgOutShadowSelected: #00000000;			// Sombra da Caixa de Mensagem enviada (selecionada)
+// Conteúdo da Caixa de Mensagem
+historyTextInFg: #FFFFFF;							// Texto de Mensagem recebida
+historyCaptionInFg: #FFFFFF;					// Texto de Mensagem recebida [com anexo]
+historyTextOutFg: #FFFFFF;						// Texto de Mensagem enviada
+historyCaptionOutFg: #FFFFFF;					// Texto de Mensagem enviada [com anexo]
+msgInMonoFg: #15B20B;								  // Texto Formatado (fonte diferente) de Mensagem recebida
+msgOutMonoFg: #15B20B;								// Texto Formatado (fonte diferente) de Mensagem enviada
+msgInDateFg: #737373;								  // Data da Caixa de Mensagem recebida
+msgInDateFgSelected: #252525;					// Data da Caixa de Mensagem recebida (selecionada)
+msgOutDateFg: #737373;								// Data da Caixa de Mensagem enviada
+msgOutDateFgSelected: #252525;				// Data da Caixa de Mensagem enviada (selecionada)
+msgDateImgFg: #FFFFFF;								// Data de Imagem Comprimida (mouse over)
+msgDateImgBg: #000000B3;							// Fundo da Data de Imagem Comprimida (mouse over)
+msgDateImgBgOver: #818181D4;					// UNKNOWN
+msgDateImgBgSelected: #81818187;			// Fundo da Data de Imagem Comprimida selecionada (mouse over)
+historyOutIconFg: #15B20B;						// Ícone enviado [tique e duplo tique]
+historyOutIconFgSelected: #FFFFFF;		// Ícone enviado [tique e duplo tique] (selecionado)
+historyIconFgInverted: #15B20B;				// Ícone enviado [tique e duplo tique] (sticker)
+historySendingOutIconFg: #15B20B;			// Ícone enviando [reloginho] de Mensagem enviada
+historySendingInIconFg: #15B20B;			// Ícone enviando [reloginho] de Mensagem recebida
+historySendingInvertedIconFg: #15B20B;// Ícone enviando [reloginho] (sticker)
+msgInReplyBarColor: #15B20B;					// Barra de marcação (Reply/link com miniatura/imagem com link) de Mensagem recebida
+msgInReplyBarSelColor: #15B20B;				// Barra de marcação (Reply/link com miniatura/imagem com link) de Mensagem recebida (selecionada)
+msgOutReplyBarColor: #15B20B;					// Barra de marcação (Reply/link com miniatura/imagem com link) de Mensagem enviada
+msgOutReplyBarSelColor: #15B20B;			// Barra de marcação (Reply/link com miniatura/imagem com link) de Mensagem enviada (selecionada)
+msgInServiceFg: #15B20B;							// Nome de contato marcado (e Via @..., Encaminhado de..., etc) de Mensagem recebida
+msgInServiceFgSelected: #15B20B;			// Nome de contato marcado (e Via @..., Encaminhado de..., etc) de Mensagem recebida (selecionado)
+msgOutServiceFg: #15B20B;							// Nome de contato marcado (e Via @..., Encaminhado de..., etc) de Mensagem enviada
+msgOutServiceFgSelected: #15B20B;			// Nome de contato marcado (e Via @..., Encaminhado de..., etc) de Mensagem enviada (selecionado)
+// Arquivos enviados/recebidos
+historyFileNameInFg: #FFFFFF;					// Título do Arquivo recebido
+mediaInFg: #737373;									  // Valor do tamanho do arquivo recebido
+mediaInFgSelected: #252525;						// Valor do tamanho do arquivo recebido (selecionado)
+historyFileNameOutFg: #FFFFFF;				// Título do Arquivo enviado
+mediaOutFg: #737373;								  // Valor do tamanho do arquivo enviado
+mediaOutFgSelected: #252525;					// Valor do tamanho do arquivo enviado (selecionado)
+msgFileInBg: #15B20B;								  // Círculo do Ícone de Arquivo recebido
+msgFileInBgOver: #074C00;							// Círculo do Ícone de Arquivo recebido (mouse over APENAS para download)
+msgFileInBgSelected: #FFFFFF;					// Círculo do Ícone de Arquivo recebido (selecionado)
+msgFileOutBg: #15B20B;								// Círculo do Ícone de Arquivo enviado
+msgFileOutBgOver: #074C00;						// Círculo do Ícone de Arquivo enviado (mouse over APENAS para download)
+msgFileOutBgSelected: #FFFFFF;				// Círculo do Ícone de Arquivo enviado (selecionado)
+historyFileInIconFg: #252525;					// Ícone de Arquivo recebido
+historyFileInIconFgSelected: #737373;	// Ícone de Arquivo recebido (selecionado)
+historyFileInRadialFg: #FFFFFF;				// Círculo de animação de download/upload [arquivo recebido]
+historyFileInRadialFgSelected: #737373; // Círculo de animação de download/upload [arquivo recebido] (selecionado)
+historyFileOutIconFg: #000000;				// Ícone de Arquivo enviado
+historyFileOutIconFgSelected: #737373;// Ícone de Arquivo enviado (selecionado)
+historyFileOutRadialFg: #FFFFFF;			// Círculo de animação de download/upload [arquivo enviado]
+historyFileOutRadialFgSelected: #737373;  // Círculo de animação de download/upload [arquivo enviado] (selecionado)
+historyFileThumbIconFg: #FFFFFF;			// Ícone de download/cancelar download de thumbnail
+historyFileThumbIconFgSelected: #737373;  // Ícone de download/cancelar download de thumbnail (selecionado)
+historyFileThumbRadialFg: #FFFFFF;		// Círculo de animação de download/upload de thumbnail
+historyFileThumbRadialFgSelected: #FFFFFF;  // Círculo de animação de download/upload de thumbnail (selecionado)
+// Onda de áudio
+msgWaveformInActive: #15B20B;					// Onda de áudio ativa [recebida]
+msgWaveformInActiveSelected: #FFFFFF;	// Onda de áudio ativa [recebida] (selecionada)
+msgWaveformInInactive: #737373;				// Onda de audio inativa [recebida]
+msgWaveformInInactiveSelected: #000000; // Onda de áudio inativa [recebida] (selecionada)
+msgWaveformOutActive: #15B20B;				// Onda de áudio ativa [enviada]
+msgWaveformOutActiveSelected: #FFFFFF;	// Onda de áudio ativa [enviada] (selecionada)
+msgWaveformOutInactive: #737373;			// Onda de áudio inativa [enviada]
+msgWaveformOutInactiveSelected: #000000;	// Onda de áudio inativa [enviada] (selecionada)
+// Caixa de Digitar
+historyComposeAreaBg: #0B0B0B;				// Plano de Fundo
+historyComposeAreaFg: #FFFFFF;				// Texto digitado
+historyReplyBg: #0B0B0B;							// Caixa de Reply
+historyComposeAreaFgService: #737373;	// Texto da Caixa de Reply
+historyComposeIconFg: #15B20B;				// Ícones (Anexo e Emoji)
+historyComposeIconFgOver: #FFFFFF;		// Ícones (Anexo e Emoji) (mouse over)
+historySendIconFg: #FFFFFF;						// Ícone de Enviar Mensagem
+historySendIconFgOver: #15B20B;				// Ícone de Enviar Mensagem (mouse over)
+historyPinnedBg: #737373;							// Mensagem fixada
+historyReplyIconFg: #FFFFFF;					// Ícone Reply na Caixa de Reply
+historyReplyCancelFg: #15B20B;				// Ícone cancelar [x] da Caixa de Reply
+historyReplyCancelFgOver: #FFFFFF;		// Ícone cancelar [x] da Caixa de Reply (mouse over)
+// bot
+msgBotKbOverBgAdd: #074C00;						// Botão do bot (mouse sobre ele)
+msgBotKbIconFg: #FFFFFF;							// Setinha do Botão do bot
+msgBotKbRippleBg: #15B20B;						// Efeito do clique no Botão do bot
+// Outros itens
+historyToDownShadow: #15B20B70;				// Sombra do ícone de baixar para última mensagem
+youtubePlayIconBg: #FF0000;						// Plano de fundo do Ícone do Youtube
+youtubePlayIconFg: #FFFFFF;						// Triângulo interior do Ícone do YouTube
+msgSelectOverlay: #a0acb64c;					// Fundo sobreposto sobre imagem selecionada
+msgStickerOverlay: #a0acb67f;					// Fundo sobreposto sobre sticker selecionado
+historyUnreadBarBg: #000000;					// Plano de Fundo da Barra "Mensagens não lidas"
+historyUnreadBarBorder: #15B20B;			// Bordas da Barra "Mensagens não lidas"
+historyUnreadBarFg: #15B20B;					// Texto da Barra "Mensagens não lidas"
+msgServiceFg: #FFFFFF;								// Texto da Data central, entrada de contato e horário do Sticker
+msgServiceBg: #000000; 								// Fundo da Data central, entrada de contato e horário do Sticker ERROR
+msgServiceBgSelected: #FF0000;				// Fundo do horário do Sticker (selecionado) ERROR
+reportSpamBg: #737373;								// Plano de Fundo da Caixa de Spam (quando um contato desconhecido inicia um chat)
+reportSpamFg: #FFFFFF;								// UNKNOWN (talvez relacionado ao anterior)
+
+
+// SEÇÃO DE ARQUIVOS //
+overviewPhotoSelectOverlay: #15B20B40;  // Foto selecionada em "Mídia compartilhada"
+// Base
+msgFile1Bg: #000000;								  // Fundo da miniatura (quadrado) do arquivo
+msgFile1BgDark: #15B20B;							// Círculo do Ícone de Arquivo para download
+msgFile1BgOver: #074C00;							// Círculo do Ícone de Arquivo para download (mouse over)
+msgFile1BgSelected: #FFFFFF;					// Círculo do Ícone de Arquivo para download (selecionado)
+// Demais
+msgFile2Bg: #000000;
+msgFile2BgDark: #15B20B;
+msgFile2BgOver: #074C00;
+msgFile2BgSelected: #FFFFFF;
+msgFile3Bg: #000000;
+msgFile3BgDark: #15B20B;
+msgFile3BgOver: #074C00;
+msgFile3BgSelected: #FFFFFF;
+msgFile4Bg: #000000;
+msgFile4BgDark: #15B20B;
+msgFile4BgOver: #074C00;
+msgFile4BgSelected: #FFFFFF;
+
+
+// NOME DO REMETENTE NO HISTÓRICO DE GRUPO //
+historyPeer1NameFg: #AEFF00;					// (Verde lima)
+historyPeer2NameFg: #FFFF00;					// (Amarelo)
+historyPeer3NameFg: #00FFFF;					// (Ciano)
+historyPeer4NameFg: #00A2FF;					// (Azul claro)
+historyPeer5NameFg: #FF00FF;					// (Rosa)
+historyPeer6NameFg: #FFB600;					// (Laranja)
+historyPeer7NameFg: #FA8072;					// (Salmão)
+historyPeer8NameFg: #00FF80;					// (Verde claríssimo)
+
+
+// PLAYER DE MÚSICA //
+mediaPlayerBg: #252525;								// Plano de Fundo
+mediaPlayerActiveFg: #15B20B;					// Ícones (Barra de Progresso ativa, Play/Pause, Volume, Barra de Volume ativa, Repetir ativado, Cìrculo do Ícone da Música na lista de reprodução)
+mediaPlayerInactiveFg: #737373;				// Ícones (Avançar/Retroceder, Barra de Progresso inativa, Barra de Volume inativa)
+mediaPlayerDisabledFg: #FFFF00;				// UNKNOWN
+
+
+// MEDIA VIEW // 
+mediaviewMenuBg: #000000;							// Plano de Fundo do Menu de Contexto
+mediaviewMenuBgOver: #1A1A1A;					// Plano de Fundo do Menu de Contexto (mouse over)
+mediaviewMenuBgRipple: #15B20B;				// Efeito do clique no Menu de Contexto
+mediaviewMenuFg: #FFFFFF;							// Texto do Menu do Player de Vídeo
+mediaviewBg: #252526eb;								// Camada de Fundo transparente
+mediaviewVideoBg: #252526eb;					// Camada de Fundo transparente (video tela inteira)
+mediaviewControlBg: #15B20B3c;				// Controles laterais e Botão Fechar (mouse over)
+mediaviewControlFg: #15B20B;					// Botão dos Controles laterais e Botão Fechar
+mediaviewCaptionBg: #FFFFFFB3;				// Plano de Fundo da descrição do arquivo
+mediaviewCaptionFg: #000000;					// Texto da descrição do arquivo
+mediaviewTextLinkFg: #15B20B;					// Texto do local onde é salvo um arquivo (ao clicar no ícone "Download") e autor na descrição do arquivo (se tiver)
+mediaviewSaveMsgBg: #FFFFFFB3;				// Plano de Fundo da mensagem (salvo em Downloads)
+mediaviewSaveMsgFg: #000000;					// Texto da mensagem (salvo em Downloads)
+mediaviewPlaybackActive: #15B20B;			// Barra de Progresso e volume [ativos] do Player de Video
+mediaviewPlaybackInactive: #FFFFFF;		// Barra de progresso [inativa]
+mediaviewPlaybackActiveOver: #15B20B;	// Barra de progresso e volume [ativos] do Player de Video (mouse over)
+mediaviewPlaybackInactiveOver: #FFFFFF;	// Barra de progresso [inativa] do Player de Video (mouse over)
+mediaviewPlaybackProgressFg: #15B20B;	// Tempo da barra do Player de Video
+mediaviewPlaybackIconFg: #15B20B;			// Ícones do Player de Video [Play/Pause, Estender]
+mediaviewPlaybackIconFgOver: #FFFFFF;	// Ícones do Player de Video [Play/Pause, Estender] (mouse over)
+mediaviewTransparentBg: #252526;			// UNKNOWN
+mediaviewTransparentFg: #cccccc;			// UNKNOWN
+
+
+// POSIÇÃO E CONTADOR DE NOTIFICAÇÕES;
+notificationsBoxMonitorFg: #FFFFFF;		// Monitor de exemplo
+notificationsBoxScreenBg: #737373;		// Screen do Monitor de exemplo
+notificationSampleUserpicFg: #15B20B;	// Avatar das notificações dentro do Monitor de Exemplo
+notificationSampleCloseFg: #15B20B;		// Botão Fechar das notificações dentro do Monitor de Exemplo
+notificationSampleTextFg: #737373;		// Texto das notificações dentro do Monitor de Exemplo
+notificationSampleNameFg: #FFFFFF;		// Nome das notificações dentro do Monitor de Exemplo
+
+
+// (SEM DESTINO AINDA) //
+cancelIconFg: #FFFF00;								// UNKNOWN
+cancelIconFgOver: #FFFF00;						// UNKNOWN
+membersAboutLimitFg: #FFFF00;					// UNKNOWN
+msgImgReplyBarColor: #FFFF00;					// UNKNOWN
+historySystemBg: #FFFF00;							// UNKNOWN
+historySystemBgSelected: #FFFF00;			// UNKNOWN
+historySystemFg: #FFFF00;							// UNKNOWN
+msgFileThumbLinkInFg: #FFFFFF;				// UNKNOWN
+msgFileThumbLinkInFgSelected: #FFFFFF;	// UNKNOWN
+msgFileThumbLinkOutFg: #15B20B;				// UNKNOWN
+msgFileThumbLinkOutFgSelected: #15B20B;	// UNKNOWN
+videoPlayIconBg: #15B20B;							// UNKNOWN
+videoPlayIconFg: #252525;							// UNKNOWN
+toastBg: #000000b2;									  // UNKNOWN
+toastFg: #15B20B;									    // UNKNOWN
+historyComposeButtonBg: #0B0B0B;			// UNKNOWN
+historyComposeButtonBgOver: #737373;	// UNKNOWN
+historyComposeButtonBgRipple: #15B20B;  // UNKNOWN
+overviewCheckBg: #d4d7d640;						// UNKNOWN
+overviewCheckFg: #000000;							// UNKNOWN
+overviewCheckFgActive: #000000;				// UNKNOWN
+mediaviewFileBg: #FFFFFF;							// UNKNOWN
+mediaviewFileNameFg: #FFFFFF;					// UNKNOWN
+mediaviewFileSizeFg: #737373;					// UNKNOWN
+mediaviewFileRedCornerFg: #d55959;		// UNKNOWN
+mediaviewFileYellowCornerFg: #e8a659;	// UNKNOWN
+mediaviewFileGreenCornerFg: #49a957;	// UNKNOWN
+mediaviewFileBlueCornerFg: #599dcf;		// UNKNOWN
+mediaviewFileExtFg: #FFFFFF;					// UNKNOWN
+notificationBg: #000000;							// UNKNOWN
